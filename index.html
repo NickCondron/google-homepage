@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="top_navbar">
-      <ul id="top_links">
+      <ul id="top_links" class="horiznavbar">
         <li><a href="https://plus.google.com">+You</a></li>
         <li><a href="https://mail.google.com/">Gmail</a></li>
         <li><a href="https://images.google.com/">Images</a></li>
@@ -16,13 +16,29 @@
         <li><a href="https://accounts.google.com/" id=sign_in>Sign In</a></li>
       </ul>
     </div>
-    <img src="resources/images/googlelogo.png" height="95"/>
-    <br/>
+    <div id="content">
+      <img id ="logo" src="resources/images/googlelogo.png" height="95"/>
 
-    <form action="index.html" method="GET" name="search">
-      <input type="search" name="search_box" size="50" required/>
-      <button type="submit" name="standard_search">Google Search</button>
-      <button type="submit" name="lucky_search">I'm Feeling Lucky</button>
-    </form>
+      <form action="index.html" method="GET" name="search">
+        <input type="search" name="search_box" size="50" required/>
+        <br>
+        <button type="submit" name="standard_search">Google Search</button>
+        <button type="submit" name="lucky_search">I'm Feeling Lucky</button>
+      </form>
+    </div>
+    <div id="footer">
+      <ul id="bottom_left" class="horiznavbar">
+        <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+        <li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+        <li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+      </ul>
+      <ul id="bottom_rigth" class="horiznavbar">
+        <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+        <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+        <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+      </ul>
+    </div>
+    
+    
   </body>
 </html>

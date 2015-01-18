@@ -6,11 +6,35 @@ body {
   height: 100px;
 }
 
-#top_links {
+.horiz_navbar {
   list-style-type: none;
   padding: 0;
   margin:0;
+}
+
+#top_links {
   float: right;
+}
+
+#bottom_left {
+  float: left;
+  position: absolute;
+}
+
+#bottom_right {
+  float: right;
+  position: absolute;
+}
+
+#content {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-top: 2px solid #e4e4e4;
+  height: 40px
 }
 
 li {

@@ -1,0 +1,28 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+#top_navbar {
+  height: 100px;
+}
+
+#top_links {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}

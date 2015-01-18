@@ -3,14 +3,26 @@
   <head>
     <meta charset="UTF-8"/>
     <title>Google</title>
+    <ling rel="stylesheet" type="text/css" href="stylesheets/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
   </head>
   <body>
+    <div id="top_navbar">
+      <ul id="top_links">
+        <li><a href="https://plus.google.com">+You</a></li>
+        <li><a href="https://mail.google.com/">Gmail</a></li>
+        <li><a href="https://images.google.com/">Images</a></li>
+        <li><a href="http://www.google.com/intl/en/options/"><img src="resources/images/grid.png"/></a>
+        <li><a href="https://accounts.google.com/" id=sign_in>Sign In</a></li>
+      </ul>
+    </div>
     <img src="resources/images/googlelogo.png" height="95"/>
     <br/>
+
     <form action="index.html" method="GET" name="search">
-      <input type="text" name="search_box"/>
-      <input type="submit" value="Google Search"/>
-      <input type="submit" value="I'm Feeling Lucky"/>
+      <input type="search" name="search_box" size="50" required/>
+      <button type="submit" name="standard_search">Google Search</button>
+      <button type="submit" name="lucky_search">I'm Feeling Lucky</button>
     </form>
   </body>
 </html>

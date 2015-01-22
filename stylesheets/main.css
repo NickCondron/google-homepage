@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #top_navbar {
@@ -28,8 +28,7 @@ body {
 }
 
 #bottom_left > li {
-  padding-right: 18px;
-  font-size: 13px;
+  padding-right: 28px;
 }
 
 #bottom_right {
@@ -38,8 +37,7 @@ body {
 }
 
 #bottom_right > li {
-  padding-left: 18px;
-  font-size: 14px;
+  padding-left: 28px;
 }
 
 #content {
@@ -87,12 +85,12 @@ a:hover {
 }
 
 #logo {
-  margin-bottom: 16px;
-  margin-top: 120px;
+  margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 #search_bar {
-  width: 40%;
+  width: 550px;
   height: 28px;
   border: 1px solid #d8d8d8;
 }
@@ -109,9 +107,15 @@ form > button {
   padding: 0px 8px;
   margin: 16px 8px;
   border: 1px solid #d8d8d8;
+  border-radius: 2px;
   font-weight: bold;
   font-size: 11px;
   line-height: 28px;
   background-color: #f5f5f5;
   color: #444444;
+}
+
+form > button:hover {
+  border: 1px solid #c6c6c6;
+  border-bottom: 2px solid #c6c6c6;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 #top_links > li {
-  padding-left: 10px;
+  padding-left: 14px;
 }
 
 #bottom_left {
@@ -59,16 +59,31 @@ body {
 }
 
 li {
-  display: inline;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+#sign_in {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #4386fa;
+  padding: 6px 10px;
+  border: 1px solid #4386fa;
+  border-radius: 2px;
 }
 
 #logo {

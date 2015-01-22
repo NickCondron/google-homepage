@@ -1,28 +1,45 @@
 body {
-  font-family: arial,sans-serif;
+  font-family: arial;
   font-size: 14px;
 }
 
 #top_navbar {
   height: 100px;
+  margin-top: 16px;
+  margin-right: 20px;
 }
 
 .horiz_navbar {
   list-style-type: none;
   display: inline;
-  vertical-align: middle;
 }
 
 #top_links {
   float: right;
 }
 
+#top_links > li {
+  padding-left: 10px;
+}
+
 #bottom_left {
   float: left;
+  margin-left: 30px;
+}
+
+#bottom_left > li {
+  padding-right: 18px;
+  font-size: 13px;
 }
 
 #bottom_right {
   float: right;
+  margin-right: 30px;
+}
+
+#bottom_right > li {
+  padding-left: 18px;
+  font-size: 14px;
 }
 
 #content {
@@ -33,7 +50,9 @@ body {
 #footer {
   text-align: center;
   background-color: #f2f2f2;
-  border-top: 2px solid #e4e4e4;
+  color: #666666;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -45,7 +64,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 a:hover {
@@ -53,7 +72,8 @@ a:hover {
 }
 
 #logo {
-  margin-bottom: 16px
+  margin-bottom: 16px;
+  margin-top: 120px;
 }
 
 form > input {
